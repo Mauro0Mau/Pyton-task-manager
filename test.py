@@ -30,8 +30,10 @@ for i in range(1, 11):
     if i == 5:
         break
 
+print("\n")
+
 limite = 0
 
-while limite < 10:
+while limite < 11:
     print(limite)
     limite +=1
