@@ -59,8 +59,11 @@ pessoa = {
     "idade": 25,
     "sexo": "M"
 }
+
 print(pessoa ["nome"])
+time.sleep(0.1)
 print(pessoa ["idade"])
+time.sleep(0.1)
 print(pessoa ["sexo"])
 
 
@@ -145,7 +148,22 @@ mauricio = {
     }
 }
 
+time.sleep(0.1)
 print(mauricio["amigos"]["evelyn"]["idade"])
+time.sleep(0.1)
 print(mauricio["amigos"]["evelyn"]["status"])
+time.sleep(0.1)
 print(mauricio["amigos"]["evelyn"]["relacionamento"])
+time.sleep(0.1)
 print(mauricio["amigos"]["evelyn"]["personalidade"])
+
+
+nameSTU = 'Stu'
+
+print(type(nameSTU))
+
+
+
+
+
+
