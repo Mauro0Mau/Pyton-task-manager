@@ -162,6 +162,41 @@ nameSTU = 'Stu'
 
 print(type(nameSTU))
 
+lista1 = [1, 2, 3, 4, 5, 6]
+print (lista1[2])
+
+time.sleep(1)
+lista1.append(6) #Adiciona um item na lista
+print(lista1)
+
+time.sleep(1)
+lista1.pop() #Remove o último item da lista
+print(lista1)
+
+time.sleep(1)
+lista1.pop(0) #Remove o item na posição 0
+print(lista1)
+
+time.sleep(1)
+lista1.remove(3) #Remove o item 3 da lista
+print(lista1)
+
+time.sleep(1)
+lista1.sort() #Ordena a lista
+print(lista1)
+
+AB, CD, ACDC = [1, 2, 3 + 2]
+print(ACDC)
+
+listaTsom = [1, 2, 3, 2 + 2, 5, 12/2, 3.5 + 3.5, 80, 9, 10]
+listaTsom2 = [11, 12, 13, 14, 15]
+
+
+
+
+
+
+
 
 
 
