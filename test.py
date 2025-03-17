@@ -1,6 +1,6 @@
 import time
 import os
-
+'''
 nome = "Mauricio"
 
 print ("Esse cara é O cara: " + nome)
@@ -134,6 +134,7 @@ mauricio = {
             "status": None,
             "relacionamento": None,
             "personalidade": None,
+            "endereco": ["Rua", "Bairro", "Cidade", "Estado"],
         },
     },
     "comida_fav": {
@@ -191,14 +192,68 @@ print(ACDC)
 listaTsom = [1, 2, 3, 2 + 2, 5, 12/2, 3.5 + 3.5, 80, 9, 10]
 listaTsom2 = [11, 12, 13, 14, 15]
 
+lista_Somada = listaTsom + listaTsom2
+print(lista_Somada)
+
+tupla = (1, 2, 3, 4)
+print(tupla[3])
+'''
+
+a = 10
+b = 5
+
+print("\n".join(map(str, [a + b, a - b, a * b, a / b])))
+
+time.sleep(0.5)
+
+operacoes = [a + b, a - b, a * b, a / b]
+
+for resultado in operacoes:
+    print('\n')
+    print(resultado)
+    time.sleep(0.1)
 
 
 
+#-------------------------------------------- Praticas --------------------------------------------
 
+'''
+print("Olá, Temos um tempo para que essa execução acabe começando agora")
+time.sleep(1)
+print("1")
+time.sleep(1)
+print("2")
+time.sleep(1)
+print("3")
+time.sleep(1)
+print("4")
+time.sleep(1)
+print("5")
 
+print("\n")
 
+print ("Començando por algumas operações básicas de aritmética:")
+time.sleep(0.5)
 
+a = 10
+b = 5
 
+print (a + b)
+time.sleep(0.1)
+print (a - b)
+time.sleep(0.1)
+print (a * b)
+time.sleep(0.1)
+print (a / b)
+
+nomeA = 'Gabrielly'
+
+if nomeA == 'Gabrielly':
+    print("O nome é... " + nomeA + "?") 
+else:
+    print("O nome não é Gabrielly")
+
+'''
 
 
 
