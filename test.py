@@ -1,5 +1,6 @@
 import time
 import os
+
 '''
 nome = "Mauricio"
 
@@ -199,6 +200,7 @@ tupla = (1, 2, 3, 4)
 print(tupla[3])
 '''
 
+'''
 a = 10
 b = 5
 
@@ -209,15 +211,15 @@ time.sleep(0.5)
 operacoes = [a + b, a - b, a * b, a / b]
 
 for resultado in operacoes:
-    print('\n')
+    print('\n')          
     print(resultado)
-    time.sleep(0.1)
-
+    time.sleep(0.1) 
+'''
 
 
 #-------------------------------------------- Praticas --------------------------------------------
 
-'''
+
 print("Olá, Temos um tempo para que essa execução acabe começando agora")
 time.sleep(1)
 print("1")
@@ -253,7 +255,69 @@ if nomeA == 'Gabrielly':
 else:
     print("O nome não é Gabrielly")
 
-'''
+for i in range(1, 11):
+    print(i)
+
+contador = 0
+
+while contador < 11:
+    print(contador)
+    contador += 1
+
+def bemvindo (nome):
+    print(f"Bem vindo {nome}")
+    bemvindo("Gabrielly")
+
+cores = ["azul", "vermelho", "verde", "amarelo"]
+for cor in cores:
+    print(cor)
+
+print("\n")
+
+pessoa = {
+    "nome": "Gabrielly",
+    "idade": 18,
+    "sexo": "F"
+}
+
+camiho_teste = r"D:\Estudos de Programação\Pyton\teste"
+caminho_arquivo = os.path.join(camiho_teste, "arquivo.txt")
+
+with open(caminho_arquivo, "w") as arquivo:
+    arquivo.write("Teste de arquivo" + ", Olá Mundo!")
+
+try:
+    resultado = 10 / 10
+    print (resultado)
+except ZeroDivisionError:
+    print("Não é possível dividir por zero")
+
+variavel = 10
+print(type(variavel))
+
+lista = [1, 2, 3, 4, 5, 6]
+print(lista[2])
+
+lista[1] = 'GOOFY'
+print(lista[1])
+print(lista)
+
+lista.append(7)
+print(lista)
+
+lista.remove('GOOFY', 7)
+print(lista)
+
+lista.sort()
+print(lista)
+
+x, y, z = [1, 2, 3]
+print(x, y, z)
+
+
+
+
+
 
 
 
