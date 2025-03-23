@@ -251,7 +251,7 @@ print (a / b)
 nomeA = 'Gabrielly'
 
 if nomeA == 'Gabrielly':
-    print("O nome é... " + nomeA + "?") 
+    print("O nome é... " + nomeA + "?")
 else:
     print("O nome não é Gabrielly")
 
@@ -314,8 +314,64 @@ print(lista)
 x, y, z = [1, 2, 3]
 print(x, y, z)
 
+lista1 = [1, 2, 3, 4, 5]
+lista2 = [6, 7, 8, 9, 10]
+listamain = lista1 + lista2
+print(listamain)
 
+tupla = (1, 2, 3, 4)
+print(tupla[3])
 
+ele = {
+    "nome": ["Nelço", "Gloria"],
+    "idade": 102,
+    "sexo": ["M", "F"]
+}
+
+print(ele["nome"])
+
+def soma (a, b):
+    return a + b
+
+resultado = soma(10, 5)
+print(resultado)
+
+def quadrado (x):
+    return x ** 2
+print(quadrado(4))
+
+def saudacoes (nomeB = "Visitante"):
+    print(f"Olá {nomeB}!")
+
+saudacoes("Ana")
+saudacoes()
+
+def fatorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * fatorial(n - 1)
+    print(fatorial(5))
+
+soma = lambda a, b: a + b
+print(soma(10, 5))
+
+quadrados = [x ** 2 for x in range(6)]
+print(quadrados)
+
+numeros = [1, 2, 3, 4]
+quadrado = list(map(lambda x: x ** 2, numeros))
+print(quadrado)
+
+pares = list(filter(lambda x: x % 2 == 0, numeros))
+print(pares)
+
+from functools import reduce
+soma_total= reduce(lambda a, b: a + b, numeros)
+print(soma_total)
+
+dicionario = {x: x ** 2 for x in range(5)}
+print(dicionario)
 
 
 
