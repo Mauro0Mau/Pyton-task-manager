@@ -373,6 +373,57 @@ print(soma_total)
 dicionario = {x: x ** 2 for x in range(5)}
 print(dicionario)
 
+texto = "COBRA"
+print(texto[0])
+
+print(texto[0:1:2])
+
+nomeS = "Fraga"
+sobrenome = "Nofulu"
+
+nomeCompleto = nomeS + " " + sobrenome
+print(nomeCompleto)
+
+frase = "Frase para fazer exemplo de frase :) "
+print (frase.upper())
+
+texto2 = "Eu gosto de chocolate com pedaços de avelã no meio!"
+texto22 = texto2.replace("avelã", "amendoim")
+print(texto22)
+
+texto221 = "Paçoca é uma delicia!"
+palavrasDo221 = texto221.split()
+print(palavrasDo221)
+
+print("Paçoca" in texto221)
+
+palavras3 = ["Pé","de","moça","é","muito","bom","tambem","!"]
+frase = "".join(palavras3)
+print (frase)
+
+numeros123 = [1, 2, 3, 4, 5]
+print (3 in numeros123)
+
+conjunto = {1, 2, 3}
+conjunto.add(4)
+print(conjunto)
+
+lista21 = [1, 2, 3, 4, 5, 6, 7]
+conjunto = set(lista)
+print (conjunto)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
