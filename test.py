@@ -416,24 +416,38 @@ test_path = r"D:\Estudos de Programação\Pyton\teste"
 caminho_arquivo = os.path.join(test_path, "arquivo.txt")
 
 with open ("arquivo.txt", "w") as arquivo:
-    arquivo.write("Teste de arquivo")
+    arquivo.write("Teste de arquivo, manipulando arquivos com Python")
 
 with open ('arquivo.txt', "r") as arquivo:
     conteudo = arquivo.read()
     print(conteudo)
 
+os.mkdir("meu_diretorio")
+print("Diretório criado com sucesso!")
 
+comprovar = os.path.exists("arquivo.txt")
+print(comprovar)
 
+arquivos = os.listdir(".")
+print(arquivos)
 
+import math
 
+print(math.sqrt(16))
 
+import random
+print(random.randint(1, 10))
 
+import datetime
+hoje = datetime.datetime.now()
+print(hoje)
 
+try:
+    numero = int(input("Digite um número: "))
+except ValueError:
+    print("Erro: Entrada inválida. Digite um número inteiro.")
 
-
-
-
-
+help (print)
 
 
 
