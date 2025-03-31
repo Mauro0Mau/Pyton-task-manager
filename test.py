@@ -412,6 +412,16 @@ lista21 = [1, 2, 3, 4, 5, 6, 7]
 conjunto = set(lista)
 print (conjunto)
 
+test_path = r"D:\Estudos de Programação\Pyton\teste"
+caminho_arquivo = os.path.join(test_path, "arquivo.txt")
+
+with open ("arquivo.txt", "w") as arquivo:
+    arquivo.write("Teste de arquivo")
+
+with open ('arquivo.txt', "r") as arquivo:
+    conteudo = arquivo.read()
+    print(conteudo)
+
 
 
 
