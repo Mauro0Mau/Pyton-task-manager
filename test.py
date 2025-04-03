@@ -448,7 +448,3 @@ except ValueError:
     print("Erro: Entrada inválida. Digite um número inteiro.")
 
 help (print)
-
-
-
-
