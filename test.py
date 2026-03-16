@@ -3,7 +3,6 @@ import os
 
 '''
 nome = "Mauricio"
-
 print ("Esse cara é O cara: " + nome)
 
 x = 25
@@ -241,12 +240,13 @@ a = 10
 b = 5
 
 print (a + b)
-time.sleep(0.1)
+time.sleep(0.5)
 print (a - b)
-time.sleep(0.1)
+time.sleep(0.5)
 print (a * b)
-time.sleep(0.1)
+time.sleep(0.5)
 print (a / b)
+
 
 nomeA = 'Gabrielly'
 
@@ -280,7 +280,7 @@ pessoa = {
     "sexo": "F"
 }
 
-camiho_teste = r"D:\Estudos de Programação\Pyton\teste"
+camiho_teste = r"d:\estudos_de programacao\Pyton\teste"
 caminho_arquivo = os.path.join(camiho_teste, "arquivo.txt")
 
 with open(caminho_arquivo, "w") as arquivo:
@@ -305,7 +305,7 @@ print(lista)
 lista.append(7)
 print(lista)
 
-lista.remove('GOOFY', 7)
+lista.remove('GOOFY')
 print(lista)
 
 lista.sort()
@@ -422,7 +422,7 @@ with open ('arquivo.txt', "r") as arquivo:
     conteudo = arquivo.read()
     print(conteudo)
 
-os.mkdir("meu_diretorio")
+os.makedirs("meu_diretorio", exist_ok=True)
 print("Diretório criado com sucesso!")
 
 comprovar = os.path.exists("arquivo.txt")
