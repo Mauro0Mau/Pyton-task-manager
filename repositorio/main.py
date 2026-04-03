@@ -1,16 +1,20 @@
-
+import os
+import time
 
 def mostrar_menu():
-    print("1. Adicionar tarefa")
-    print("2. Listar tarefas")
-    print("3. Concluir tarefa")
-    print("4. Sair")
-
+    print("╔═══════════════ MENU ═════════════════╗")
+    print("║ Bem-vindo ao gerenciador de tarefas! ║")
+    print("║        1. Adicionar tarefa           ║")
+    print("║        2. Listar tarefas             ║")
+    print("║        3. Concluir tarefa            ║")
+    print("║        4. Sair                       ║")
+    print("╚══════════════════════════════════════╝")
+    
 def adicionar_tarefa():
     pass
 
 def listar_tarefas():
-    pass
+   pass
 
 def concluir_tarefa():
     pass
@@ -27,6 +31,8 @@ def main():
         elif opcao == "3":
             concluir_tarefa()
         elif opcao == "4":
+            print("Saindo do programa...\n")
+            time.sleep(1)
             break
         else:
             print("Opção inválida")
